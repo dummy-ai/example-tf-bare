@@ -1,9 +1,12 @@
-name: tf-bare
-version: 0.0.1
-description: a demo tensorflow model
-labels: ["tensorflow", "bare"]
-image: dummyai/python3  
-assets:
-    - results/checkpoint
-setup:  
-    - pip install -r requirements.txt
+models:
+- assets:
+  - results/checkpoint
+  description: a demo tensorflow model
+  image: dummyai/python3
+  labels:
+  - tensorflow
+  - bare
+  name: tf-bare
+  setup:
+  - pip install -r requirements.txt
+  version: 0.0.1
