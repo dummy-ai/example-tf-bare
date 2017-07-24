@@ -1,0 +1,6 @@
+description: A gorgeous model
+image: dummyai/python3
+labels: []
+name: test-model
+setup: []
+tag: 0.0.0
