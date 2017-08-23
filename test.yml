@@ -1,6 +1,9 @@
-description: A gorgeous model
+description: A gorgeous model ?
 image: dummyai/python3
 labels: []
 name: test-model
 setup: []
 tag: 0.0.0
+assets:
+- results/checkpoint
+- ssd_mobilenet_v1_coco_11_06_2017.tar.gz
